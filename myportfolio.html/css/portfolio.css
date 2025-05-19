@@ -1,0 +1,431 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+
+    margin: auto;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #006a71;
+    padding: 8px;
+    gap: 150px;
+    width: 100%;
+}
+
+.logo h4 {
+    background-color: #006a71;
+    color: #fff;
+    font-size: 25px;
+}
+
+.logo_heading_h4 {
+    padding-right: 760px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    background-color: #006a71;
+    margin-right: 25px;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-list li a {
+    font-size: 25px;
+    font-weight: light;
+    background-color: #006a71;
+    color: #fff;
+
+}
+
+.nav-list li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.img {
+    height: 300px;
+    width: 290px;
+    border-radius: 50%;
+    box-shadow: 05px 05px 10px rgba(120, 116, 104, 0.5);
+
+
+}
+
+.text-container h2 {
+    font-size: 50px;
+    /* font-weight: bold; */
+    color: black;
+    padding-right: 100px;
+    line-height: 60px;
+}
+
+.logo {
+    /* padding-left: 100px; */
+    border-radius: 50%;
+    /* margin-left: 50px; */
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: #006a71;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 78px;
+    height: 80vh;
+    padding-right: 100px;
+
+}
+
+.heading-3 {
+    font-size: 40px;
+
+}
+
+.main_para {
+    font-size: 20px;
+}
+
+.bt {
+    margin: 5px;
+
+
+}
+
+.marquee {
+    font-size: 40px;
+}
+
+.about {
+    height: 750px;
+    width: 100%;
+    margin-top: 150px;
+    padding-top: 20px;
+}
+
+.about1 {
+    justify-content: space-around;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.about3 {
+
+    font-size: 25px;
+    justify-content: space-evenly;
+    line-height: 50px;
+
+}
+
+
+.about p {
+    font-size: 22px;
+    line-height: 40px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+cation {
+    text-align: left;
+    font-size: 25px;
+    margin: 10% 0%;
+    line-height: 50px;
+}
+
+.aktu {
+    text-align: left;
+    margin-left: 70px;
+}
+
+.Profile {
+    height: 750px;
+    /* width: 100%; */
+    padding-top: 50px;
+    line-height: 80px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* .profile1{
+    padding-right: 80px;
+} */
+.all {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.clg {
+    margin-right: 100px;
+    height: 100%;
+}
+
+.education {
+    font-size: 25px;
+    line-height: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Skills {
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    
+}
+.skills1 {
+    font-size: 20px;
+    line-height: 50px;
+    padding-right: 340px;
+}
+
+.circle {
+    height: 10px;
+    width: 10px;
+    background-color: #006a71;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cv-button {
+    background-color: #006a71;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #006a71;
+    border: 2px solid #006a71;
+    font-weight: bold;
+}
+
+.lang {
+
+    font-size: 15px;
+    padding: 98px 15px;
+    line-height: 40px;
+
+}
+
+.Profile li {
+
+    font-size: 25px;
+
+
+}
+
+.profile1 li {
+    /* font-size: 25px; */
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+
+
+.progress-container {
+    width: 100%;
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress-bar-1 {
+    height: 100%;
+    width: 80%;
+    /* Adjust this value to change progress */
+    background-color: #4caf50;
+    text-align: center;
+    /* line-height: 30px; */
+    color: white;
+    font-weight: bold;
+}
+
+.progress-bar-2 {
+    height: 100%;
+    width: 60%;
+    /* Adjust this value to change progress */
+    background-color: yellow;
+    text-align: center;
+    /* line-height: 30px; */
+    color: white;
+    font-weight: bold;
+}
+
+.progress-bar-3 {
+    height: 100%;
+    width: 40%;
+    /* Adjust this value to change progress */
+    background-color: aqua;
+    text-align: center;
+    /* line-height: 30px; */
+    color: white;
+    font-weight: bold;
+}
+
+.progress-bar-4 {
+    height: 100%;
+    width: 20%;
+    /* Adjust this value to change progress */
+    background-color: red;
+    text-align: center;
+    /* line-height: 30px; */
+    color: white;
+    font-weight: bold;
+}
+
+
+.footer h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0% 0%;
+}
+
+.footer p {
+    text-align: left;
+    font-size: 15px;
+    margin: 0% 0%;
+    /* padding: 20px; */
+}
+
+.detailed {
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    /* padding-left: 10px; */
+
+}
+
+.icons {
+    font-size: 20px;
+    line-height: 30px;
+    justify-content: space-between;
+    /* padding-left: 95px; */
+
+}
+
+.fa-brands,
+.fab {
+    padding: 10px;
+    font-weight: 400
+}
+
+hr {
+    width: 300px;
+}
+
+.contact_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.contact-form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.contact_h2 {
+    line-height: 30px;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #006a71;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.contact2 {
+    padding: 40px 20px 20px;
+    box-shadow: 05px 05px 10px rgba(120, 116, 104, 0.5);
+    margin-top: 50px;
+    line-height: 60px;
+
+}
